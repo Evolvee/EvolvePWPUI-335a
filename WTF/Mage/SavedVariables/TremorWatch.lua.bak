@@ -1,0 +1,18 @@
+
+TremorWatchSettings = {
+	["Location"] = {
+		["Point"] = "BOTTOM",
+		["RelativePoint"] = "BOTTOM",
+		["YOfs"] = -0,
+		["XOfs"] = 17.77767759807055,
+	},
+	["DB"] = {
+		["playSounds"] = false,
+		["showPulses"] = true,
+		["arenaOnly"] = true,
+		["testMode"] = false,
+		["Delay"] = 0,
+		["alpha"] = 1,
+		["size"] = 45,
+	},
+}

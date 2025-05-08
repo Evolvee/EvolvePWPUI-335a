@@ -30,7 +30,7 @@ ButtonForgeSave = {
 					["MacroIndex"] = 38,
 				}, -- [1]
 				{
-					["MacroBody"] = "/equip Bloodmaw Magus-Blade\n/equip Star-Heart Lamp\n/equip Wand of the Netherwing\n",
+					["MacroBody"] = "/equip Merciless Gladiator's Spellblade\n/equip Merciless Gladiator's Endgame\n/equip Merciless Gladiator's Touch of Defeat\n",
 					["Mode"] = "macro",
 					["MacroName"] = "DMG",
 					["MacroIndex"] = 37,

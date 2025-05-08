@@ -2,9 +2,21 @@
 BigAurasDB = {
 	["profileKeys"] = {
 		["Evolve - Blackrock [PvP only]"] = "Default",
+		["Evotest - Blackrock [PvP only]"] = "Default",
+		["Newstrattest - Blackrock [PvP only]"] = "Default",
+		["Evodktest - Blackrock [PvP only]"] = "Default",
+		["Evotestpal - Blackrock [PvP only]"] = "Default",
+		["Testwlk - Blackrock [PvP only]"] = "Default",
 		["Uitest - Blackrock [PvP only]"] = "Default",
-		["Uitestkek - Blackrock [PvP only]"] = "Default",
 		["Evolvepwp - Blackrock [PvP only]"] = "Default",
+		["Evotesta - Blackrock [PvP only]"] = "Default",
+		["Evotestmag - Blackrock [PvP only]"] = "Default",
+		["Uitestkek - Blackrock [PvP only]"] = "Default",
+		["Pushbacktest - Blackrock [PvP only]"] = "Default",
+		["Tabardsign - Blackrock [PvP only]"] = "Default",
+		["Tabardo - Blackrock [PvP only]"] = "Default",
+		["Nnstest - Blackrock [PvP only]"] = "Default",
+		["Evoresist - Blackrock [PvP only]"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -54,14 +66,14 @@ BigAurasDB = {
 					[18708] = {
 						["priority"] = 7,
 					},
+					[43039] = {
+						["priority"] = 0,
+					},
 					[26669] = {
 						["priority"] = 0,
 					},
 					[16857] = {
 						["priority"] = 5,
-					},
-					[30458] = {
-						["priority"] = 7,
 					},
 					[22842] = {
 						["priority"] = 0,
@@ -84,8 +96,8 @@ BigAurasDB = {
 					[6940] = {
 						["priority"] = 7,
 					},
-					[43039] = {
-						["priority"] = 0,
+					[30458] = {
+						["priority"] = 7,
 					},
 					[17116] = {
 						["priority"] = 7,
@@ -96,7 +108,7 @@ BigAurasDB = {
 				["enable"] = false,
 			},
 			["minimap"] = {
-				["minimapPos"] = 321.6004386821824,
+				["minimapPos"] = 317.4771786279376,
 			},
 			["arena2"] = {
 				["enable"] = false,
@@ -150,11 +162,17 @@ BigAurasDB = {
 					[26669] = {
 						["priority"] = 0,
 					},
+					[43039] = {
+						["priority"] = 0,
+					},
 					[22842] = {
 						["priority"] = 0,
 					},
 					[43010] = {
 						["priority"] = 0,
+					},
+					[6940] = {
+						["priority"] = 7,
 					},
 					[48066] = {
 						["priority"] = 0,
@@ -166,12 +184,6 @@ BigAurasDB = {
 						["priority"] = 0,
 					},
 					[11719] = {
-						["priority"] = 0,
-					},
-					[6940] = {
-						["priority"] = 7,
-					},
-					[43039] = {
 						["priority"] = 0,
 					},
 					[17116] = {
@@ -191,10 +203,10 @@ BigAurasDB = {
 			["arena1"] = {
 				["enable"] = false,
 			},
-			["arenapet3"] = {
+			["arena4"] = {
 				["enable"] = false,
 			},
-			["arenapet1"] = {
+			["arenapet3"] = {
 				["enable"] = false,
 			},
 			["pet"] = {
@@ -259,14 +271,14 @@ BigAurasDB = {
 					[18708] = {
 						["priority"] = 7,
 					},
+					[43039] = {
+						["priority"] = 0,
+					},
 					[26669] = {
 						["priority"] = 0,
 					},
 					[16857] = {
 						["priority"] = 5,
-					},
-					[30458] = {
-						["priority"] = 7,
 					},
 					[22842] = {
 						["priority"] = 0,
@@ -289,8 +301,8 @@ BigAurasDB = {
 					[6940] = {
 						["priority"] = 7,
 					},
-					[43039] = {
-						["priority"] = 0,
+					[30458] = {
+						["priority"] = 7,
 					},
 					[17116] = {
 						["priority"] = 7,
@@ -308,7 +320,7 @@ BigAurasDB = {
 					["crowdControl"] = {
 						["priority"] = 10,
 					},
-					["defensive"] = {
+					["immunity"] = {
 						["priority"] = 0,
 					},
 					["offensive"] = {
@@ -317,17 +329,17 @@ BigAurasDB = {
 					["roots"] = {
 						["priority"] = 6,
 					},
+					["defensive"] = {
+						["priority"] = 0,
+					},
 					["totalImmunity"] = {
 						["priority"] = 11,
-					},
-					["immunity"] = {
-						["priority"] = 0,
 					},
 				},
 				["unlock"] = true,
 				["size"] = 80,
 			},
-			["party2"] = {
+			["party1"] = {
 				["categories"] = {
 					["other"] = {
 						["priority"] = 1,
@@ -341,11 +353,11 @@ BigAurasDB = {
 					["roots"] = {
 						["priority"] = 6,
 					},
-					["totalImmunity"] = {
-						["priority"] = 11,
-					},
 					["defensive"] = {
 						["priority"] = 4,
+					},
+					["totalImmunity"] = {
+						["priority"] = 11,
 					},
 				},
 				["spells"] = {
@@ -367,14 +379,14 @@ BigAurasDB = {
 					[18708] = {
 						["priority"] = 7,
 					},
+					[43039] = {
+						["priority"] = 0,
+					},
 					[26669] = {
 						["priority"] = 0,
 					},
 					[16857] = {
 						["priority"] = 5,
-					},
-					[30458] = {
-						["priority"] = 7,
 					},
 					[22842] = {
 						["priority"] = 0,
@@ -397,8 +409,8 @@ BigAurasDB = {
 					[6940] = {
 						["priority"] = 7,
 					},
-					[43039] = {
-						["priority"] = 0,
+					[30458] = {
+						["priority"] = 7,
 					},
 					[17116] = {
 						["priority"] = 7,
@@ -451,11 +463,17 @@ BigAurasDB = {
 					[26669] = {
 						["priority"] = 0,
 					},
+					[43039] = {
+						["priority"] = 0,
+					},
 					[22842] = {
 						["priority"] = 0,
 					},
 					[43010] = {
 						["priority"] = 0,
+					},
+					[6940] = {
+						["priority"] = 7,
 					},
 					[48066] = {
 						["priority"] = 0,
@@ -469,12 +487,6 @@ BigAurasDB = {
 					[11719] = {
 						["priority"] = 0,
 					},
-					[6940] = {
-						["priority"] = 7,
-					},
-					[43039] = {
-						["priority"] = 0,
-					},
 					[17116] = {
 						["priority"] = 7,
 					},
@@ -486,7 +498,7 @@ BigAurasDB = {
 			["partypet2"] = {
 				["enable"] = false,
 			},
-			["party1"] = {
+			["party2"] = {
 				["categories"] = {
 					["other"] = {
 						["priority"] = 1,
@@ -500,11 +512,11 @@ BigAurasDB = {
 					["roots"] = {
 						["priority"] = 6,
 					},
-					["defensive"] = {
-						["priority"] = 4,
-					},
 					["totalImmunity"] = {
 						["priority"] = 11,
+					},
+					["defensive"] = {
+						["priority"] = 4,
 					},
 				},
 				["spells"] = {
@@ -526,14 +538,14 @@ BigAurasDB = {
 					[18708] = {
 						["priority"] = 7,
 					},
+					[43039] = {
+						["priority"] = 0,
+					},
 					[26669] = {
 						["priority"] = 0,
 					},
 					[16857] = {
 						["priority"] = 5,
-					},
-					[30458] = {
-						["priority"] = 7,
 					},
 					[22842] = {
 						["priority"] = 0,
@@ -556,8 +568,8 @@ BigAurasDB = {
 					[6940] = {
 						["priority"] = 7,
 					},
-					[43039] = {
-						["priority"] = 0,
+					[30458] = {
+						["priority"] = 7,
 					},
 					[17116] = {
 						["priority"] = 7,
@@ -567,7 +579,7 @@ BigAurasDB = {
 			["arena3"] = {
 				["enable"] = false,
 			},
-			["arena4"] = {
+			["arenapet1"] = {
 				["enable"] = false,
 			},
 		},

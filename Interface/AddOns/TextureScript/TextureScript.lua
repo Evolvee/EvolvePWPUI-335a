@@ -1754,6 +1754,35 @@ for _, v in pairs({ TargetFrameSpellBar, FocusFrameSpellBar }) do
     end
 end
 
+-- Distinguish r1 debuffs from the full-rank ones
+local pinkSpells = {
+    [589] = true, -- SW:P (pain)
+	[8921] = true, -- Moonfire
+	[5570] = true, -- Swarm Insect
+};
+
+local function Evolve_Auras(buttonName, index, filter)
+    local name, _, _, _, debuffType, _, _, _, _, _, spellId = UnitAura("player", index, filter);
+    local buffName = buttonName..index;
+
+    if name then
+        if filter == "HARMFUL" then
+            local debuffSlot = _G[buffName.."Border"];
+            if debuffSlot then
+                if spellId and pinkSpells[spellId] then
+                    debuffSlot:SetVertexColor(0.78, 0.61, 0.43)
+                else
+                    local color = DebuffTypeColor[debuffType or "none"];
+                    if color then
+                        debuffSlot:SetVertexColor(color.r, color.g, color.b);
+                    end
+                end
+            end
+        end
+    end
+end
+hooksecurefunc("AuraButton_Update", Evolve_Auras)
+
 -- Removing the "The Arena has begun!" boss-emote message in middle of screen
 local frame = CreateFrame("Frame")
 local function UpdateRaidBossEmoteFrame()
@@ -1768,6 +1797,28 @@ frame:RegisterEvent("ZONE_CHANGED_NEW_AREA")
 frame:SetScript("OnEvent", UpdateRaidBossEmoteFrame)
 -- Initial check in case the player reloads while already in the arena
 UpdateRaidBossEmoteFrame()
+
+-- Auto open/close minimap when entering/leaving BGs (chatGPT)
+local f = CreateFrame("Frame")
+local function UpdateBattleMapVisibility()
+    local _, instanceType = IsInInstance()
+    if instanceType == "pvp" then
+        if not BattlefieldMinimap then
+            ToggleBattlefieldMinimap() -- Load it first if it hasn't been loaded yet
+        end
+        if BattlefieldMinimap then
+            BattlefieldMinimap:Show()
+        end
+    else
+        if BattlefieldMinimap then
+            BattlefieldMinimap:Hide()
+        end
+    end
+end
+f:RegisterEvent("PLAYER_ENTERING_WORLD")
+f:SetScript("OnEvent", function()
+    C_Timer.After(1, UpdateBattleMapVisibility)
+end)
 
 
 local evolvedFrame = CreateFrame("Frame")

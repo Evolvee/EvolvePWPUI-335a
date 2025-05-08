@@ -1,13 +1,17 @@
 
 BigAurasDB = {
 	["profileKeys"] = {
-		["Uitest - Blackrock [PvP only]"] = "Default",
-		["Uitestkek - Blackrock [PvP only]"] = "Default",
+		["Druidtestcol - Blackrock [PvP only]"] = "Default",
 		["Pummelsound - Blackrock [PvP only]"] = "Default",
 		["Castbartest - Blackrock [PvP only]"] = "Default",
-		["Tremortest - Blackrock [PvP only]"] = "Default",
 		["Resisttest - Blackrock [PvP only]"] = "Default",
 		["Evolvepwp - Blackrock [PvP only]"] = "Default",
+		["Uitest - Blackrock [PvP only]"] = "Default",
+		["Uitestkek - Blackrock [PvP only]"] = "Default",
+		["Wlocktestcol - Blackrock [PvP only]"] = "Default",
+		["Tremortest - Blackrock [PvP only]"] = "Default",
+		["Evolvepwe - Blackrock [PvP only]"] = "Default",
+		["Vidydead - Blackrock [PvP only]"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -57,14 +61,14 @@ BigAurasDB = {
 					[18708] = {
 						["priority"] = 7,
 					},
+					[43039] = {
+						["priority"] = 0,
+					},
 					[26669] = {
 						["priority"] = 0,
 					},
 					[16857] = {
 						["priority"] = 5,
-					},
-					[30458] = {
-						["priority"] = 7,
 					},
 					[22842] = {
 						["priority"] = 0,
@@ -87,8 +91,8 @@ BigAurasDB = {
 					[6940] = {
 						["priority"] = 7,
 					},
-					[43039] = {
-						["priority"] = 0,
+					[30458] = {
+						["priority"] = 7,
 					},
 					[17116] = {
 						["priority"] = 7,
@@ -153,11 +157,17 @@ BigAurasDB = {
 					[26669] = {
 						["priority"] = 0,
 					},
+					[43039] = {
+						["priority"] = 0,
+					},
 					[22842] = {
 						["priority"] = 0,
 					},
 					[43010] = {
 						["priority"] = 0,
+					},
+					[6940] = {
+						["priority"] = 7,
 					},
 					[48066] = {
 						["priority"] = 0,
@@ -169,12 +179,6 @@ BigAurasDB = {
 						["priority"] = 0,
 					},
 					[11719] = {
-						["priority"] = 0,
-					},
-					[6940] = {
-						["priority"] = 7,
-					},
-					[43039] = {
 						["priority"] = 0,
 					},
 					[17116] = {
@@ -262,14 +266,14 @@ BigAurasDB = {
 					[18708] = {
 						["priority"] = 7,
 					},
+					[43039] = {
+						["priority"] = 0,
+					},
 					[26669] = {
 						["priority"] = 0,
 					},
 					[16857] = {
 						["priority"] = 5,
-					},
-					[30458] = {
-						["priority"] = 7,
 					},
 					[22842] = {
 						["priority"] = 0,
@@ -292,8 +296,8 @@ BigAurasDB = {
 					[6940] = {
 						["priority"] = 7,
 					},
-					[43039] = {
-						["priority"] = 0,
+					[30458] = {
+						["priority"] = 7,
 					},
 					[17116] = {
 						["priority"] = 7,
@@ -370,14 +374,14 @@ BigAurasDB = {
 					[18708] = {
 						["priority"] = 7,
 					},
+					[43039] = {
+						["priority"] = 0,
+					},
 					[26669] = {
 						["priority"] = 0,
 					},
 					[16857] = {
 						["priority"] = 5,
-					},
-					[30458] = {
-						["priority"] = 7,
 					},
 					[22842] = {
 						["priority"] = 0,
@@ -400,8 +404,8 @@ BigAurasDB = {
 					[6940] = {
 						["priority"] = 7,
 					},
-					[43039] = {
-						["priority"] = 0,
+					[30458] = {
+						["priority"] = 7,
 					},
 					[17116] = {
 						["priority"] = 7,
@@ -454,11 +458,17 @@ BigAurasDB = {
 					[26669] = {
 						["priority"] = 0,
 					},
+					[43039] = {
+						["priority"] = 0,
+					},
 					[22842] = {
 						["priority"] = 0,
 					},
 					[43010] = {
 						["priority"] = 0,
+					},
+					[6940] = {
+						["priority"] = 7,
 					},
 					[48066] = {
 						["priority"] = 0,
@@ -470,12 +480,6 @@ BigAurasDB = {
 						["priority"] = 0,
 					},
 					[11719] = {
-						["priority"] = 0,
-					},
-					[6940] = {
-						["priority"] = 7,
-					},
-					[43039] = {
 						["priority"] = 0,
 					},
 					[17116] = {
@@ -529,14 +533,14 @@ BigAurasDB = {
 					[18708] = {
 						["priority"] = 7,
 					},
+					[43039] = {
+						["priority"] = 0,
+					},
 					[26669] = {
 						["priority"] = 0,
 					},
 					[16857] = {
 						["priority"] = 5,
-					},
-					[30458] = {
-						["priority"] = 7,
 					},
 					[22842] = {
 						["priority"] = 0,
@@ -559,8 +563,8 @@ BigAurasDB = {
 					[6940] = {
 						["priority"] = 7,
 					},
-					[43039] = {
-						["priority"] = 0,
+					[30458] = {
+						["priority"] = 7,
 					},
 					[17116] = {
 						["priority"] = 7,

@@ -1,6 +1,5 @@
 
 flyPlateBuffsDB = {
-	["version"] = 2,
 	["profileKeys"] = {
 		["Evolve - Blackrock [PvP only]"] = "Default",
 		["Druidtestcol - Blackrock [PvP only]"] = "Default",
@@ -12,15 +11,14 @@ flyPlateBuffsDB = {
 		["Uitestkek - Blackrock [PvP only]"] = "Default",
 		["Wlocktestcol - Blackrock [PvP only]"] = "Default",
 		["Tremortest - Blackrock [PvP only]"] = "Default",
+		["Evolvepwe - Blackrock [PvP only]"] = "Default",
+		["Vidydead - Blackrock [PvP only]"] = "Default",
 	},
+	["version"] = 2,
 	["profiles"] = {
 		["Default"] = {
-			["stackColor"] = {
-				nil, -- [1]
-				0.984313725490196, -- [2]
-				0.9764705882352941, -- [3]
-			},
-			["yOffset"] = -40,
+			["xOffset"] = 35,
+			["yOffset"] = -48,
 			["plateAnchorPoint"] = "TOPRIGHT",
 			["durationPosition"] = 2,
 			["stackSize"] = 6,
@@ -45,7 +43,11 @@ flyPlateBuffsDB = {
 			["myScale"] = 0,
 			["yInterval"] = 0,
 			["durationSize"] = 30,
-			["xOffset"] = 35,
+			["stackColor"] = {
+				nil, -- [1]
+				0.984313725490196, -- [2]
+				0.9764705882352941, -- [3]
+			},
 			["baseHeight"] = 38,
 			["xInterval"] = 0,
 			["showOnFriend"] = false,

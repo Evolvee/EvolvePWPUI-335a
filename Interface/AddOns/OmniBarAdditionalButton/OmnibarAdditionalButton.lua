@@ -16,14 +16,18 @@ OABframe:SetScript("OnClick", function(self)
     if OmniBar16 then
         if OmniBar16:GetAlpha() > 0 then
             OmniBar16:SetAlpha(0)
-			-- Classic only - I dont have any static omnibar1 by default anymore
-            --OmniBar1:SetAlpha(1)
 			ChatFrame1:AddMessage("Additional OmniBar OFF", 255, 0, 0)
+			--WOTLK ONLY (swap between static set of CD and 1v1 cooldowns)
+			if WOW_PROJECT_ID_RCE == (WOW_PROJECT_WRATH_CLASSIC or 11) then
+            OmniBar18:SetAlpha(1)
+			end
         else
             OmniBar16:SetAlpha(1)
-			-- Classic only - I dont have any static omnibar1 by default anymore
-            --OmniBar1:SetAlpha(0)
 			ChatFrame1:AddMessage("Additional OmniBar ON", 0, 205, 255)
+			--WOTLK ONLY (swap between static set of CD and 1v1 cooldowns)
+			if WOW_PROJECT_ID_RCE == (WOW_PROJECT_WRATH_CLASSIC or 11) then
+            OmniBar18:SetAlpha(0)
+			end
         end
     end
 end)

@@ -33,25 +33,25 @@ ButtonForgeSave = {
 					["MacroIndex"] = 48,
 				}, -- [2]
 				{
-					["MacroBody"] = "/equip Nathrezim Mindblade\n/equip Manaforged Sphere of the Sorcerer\n/equip Wand of the Netherwing\n",
+					["MacroBody"] = "/equip Merciless Gladiator's Gavel\n/equip Merciless Gladiator's Endgame\n/equip Merciless Gladiator's Touch of Defeat\n",
 					["Mode"] = "macro",
 					["MacroName"] = "DMG",
 					["MacroIndex"] = 38,
 				}, -- [3]
 				{
-					["MacroBody"] = "/equip Epoch-Mender\n/equip Flawless Wand of Spirit\n",
+					["MacroBody"] = "/equip Crystalheart Pulse-Staff\n/equip Flawless Wand of Spirit\n",
 					["Mode"] = "macro",
 					["MacroName"] = "MP5",
 					["MacroIndex"] = 41,
 				}, -- [4]
 				{
-					["MacroBody"] = "/equip Staff of Divine Infusion\n/equip Flawless Wand of Spirit\n",
+					["MacroBody"] = "/equip Ethereum Life-Staff\n/equip Flawless Wand of Spirit\n",
 					["Mode"] = "macro",
 					["MacroName"] = "Spirit",
 					["MacroIndex"] = 49,
 				}, -- [5]
 				{
-					["MacroBody"] = "/equip\n",
+					["MacroBody"] = "/equip Lightfathom Scepter\n/equip Tuurik Torch of Healing\n/equip Flawless Wand of Healing\n",
 					["Mode"] = "macro",
 					["MacroName"] = "Heal",
 					["MacroIndex"] = 40,

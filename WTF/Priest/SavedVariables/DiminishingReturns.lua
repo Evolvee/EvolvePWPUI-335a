@@ -3,21 +3,6 @@ DiminishingReturnsDB = {
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
 		},
-		["Blizzard_ArenaUI"] = {
-		},
-		["Blizzard_Party"] = {
-			["profiles"] = {
-				["Evolvepwpdva - The Burning Crusade PTR"] = {
-					["enabled"] = false,
-				},
-				["Evolvepwp - The Burning Crusade PTR"] = {
-					["enabled"] = false,
-				},
-				["Default"] = {
-					["enabled"] = false,
-				},
-			},
-		},
 		["Blizzard"] = {
 			["profiles"] = {
 				["Evolvepwpdva - The Burning Crusade PTR"] = {
@@ -26,9 +11,9 @@ DiminishingReturnsDB = {
 					},
 					["player"] = {
 						["xOffset"] = 0,
-						["yOffset"] = -12,
-						["iconSize"] = 30,
 						["spacing"] = 6,
+						["iconSize"] = 30,
+						["yOffset"] = -12,
 					},
 					["focus"] = {
 						["enabled"] = false,
@@ -76,33 +61,70 @@ DiminishingReturnsDB = {
 				},
 			},
 		},
+		["Blizzard_Party"] = {
+			["profiles"] = {
+				["Evolvepwpdva - The Burning Crusade PTR"] = {
+					["enabled"] = false,
+				},
+				["Evolvepwp - The Burning Crusade PTR"] = {
+					["enabled"] = false,
+				},
+				["Default"] = {
+					["enabled"] = false,
+				},
+			},
+		},
+		["Blizzard_ArenaUI"] = {
+			["profiles"] = {
+				["Default"] = {
+					["enabled"] = false,
+				},
+			},
+		},
 	},
 	["profileKeys"] = {
 		["Evolvepwpdva - The Burning Crusade PTR"] = "Evolvepwpdva - The Burning Crusade PTR",
-		["Priestbase - The Burning Crusade PTR"] = "Priestbase - The Burning Crusade PTR",
-		["Evolve - Blackrock [PvP only]"] = "Default",
+		["Evotest - Blackrock [PvP only]"] = "Evotest - Blackrock [PvP only]",
 		["Pettest - The Burning Crusade PTR"] = "Pettest - The Burning Crusade PTR",
-		["Saptettst - The Burning Crusade PTR"] = "Saptettst - The Burning Crusade PTR",
-		["Shambase - The Burning Crusade PTR"] = "Shambase - The Burning Crusade PTR",
 		["Magebase - The Burning Crusade PTR"] = "Magebase - The Burning Crusade PTR",
+		["Shambase - The Burning Crusade PTR"] = "Shambase - The Burning Crusade PTR",
 		["Huntbase - The Burning Crusade PTR"] = "Huntbase - The Burning Crusade PTR",
-		["Warbase - The Burning Crusade PTR"] = "Warbase - The Burning Crusade PTR",
 		["Walockbase - The Burning Crusade PTR"] = "Walockbase - The Burning Crusade PTR",
-		["Evolvepwp - The Burning Crusade PTR"] = "Evolvepwp - The Burning Crusade PTR",
-		["Evolvepwe - The Burning Crusade PTR"] = "Evolvepwe - The Burning Crusade PTR",
-		["Rogbase - The Burning Crusade PTR"] = "Rogbase - The Burning Crusade PTR",
-		["Evodruid - The Burning Crusade PTR"] = "Evodruid - The Burning Crusade PTR",
-		["Palabase - The Burning Crusade PTR"] = "Palabase - The Burning Crusade PTR",
+		["Evotesta - Blackrock [PvP only]"] = "Evotesta - Blackrock [PvP only]",
 		["Druidbase - The Burning Crusade PTR"] = "Druidbase - The Burning Crusade PTR",
+		["Evolvepwe - The Burning Crusade PTR"] = "Evolvepwe - The Burning Crusade PTR",
+		["Nnstest - Blackrock [PvP only]"] = "Nnstest - Blackrock [PvP only]",
+		["Evoresist - Blackrock [PvP only]"] = "Evoresist - Blackrock [PvP only]",
+		["Evolve - Blackrock [PvP only]"] = "Default",
+		["Priestbase - The Burning Crusade PTR"] = "Priestbase - The Burning Crusade PTR",
+		["Saptettst - The Burning Crusade PTR"] = "Saptettst - The Burning Crusade PTR",
+		["Palabase - The Burning Crusade PTR"] = "Palabase - The Burning Crusade PTR",
+		["Pushbacktest - Blackrock [PvP only]"] = "Pushbacktest - Blackrock [PvP only]",
+		["Testwlk - Blackrock [PvP only]"] = "Testwlk - Blackrock [PvP only]",
+		["Rogbase - The Burning Crusade PTR"] = "Rogbase - The Burning Crusade PTR",
+		["Evotestmag - Blackrock [PvP only]"] = "Evotestmag - Blackrock [PvP only]",
+		["Warbase - The Burning Crusade PTR"] = "Warbase - The Burning Crusade PTR",
+		["Evotestpal - Blackrock [PvP only]"] = "Evotestpal - Blackrock [PvP only]",
+		["Evodruid - The Burning Crusade PTR"] = "Evodruid - The Burning Crusade PTR",
+		["Evolvepwp - The Burning Crusade PTR"] = "Evolvepwp - The Burning Crusade PTR",
+		["Tabardsign - Blackrock [PvP only]"] = "Tabardsign - Blackrock [PvP only]",
+		["Tabardo - Blackrock [PvP only]"] = "Tabardo - Blackrock [PvP only]",
+		["Evodktest - Blackrock [PvP only]"] = "Evodktest - Blackrock [PvP only]",
+		["Newstrattest - Blackrock [PvP only]"] = "Newstrattest - Blackrock [PvP only]",
 	},
 	["profiles"] = {
 		["Evolvepwpdva - The Burning Crusade PTR"] = {
 			["categories"] = {
-				["disorient"] = true,
 				["fear"] = true,
+				["disorient"] = true,
 			},
 			["learnCategories"] = false,
 			["bigTimer"] = true,
+		},
+		["Evotest - Blackrock [PvP only]"] = {
+			["categories"] = {
+				["fear"] = true,
+			},
 		},
 		["Pettest - The Burning Crusade PTR"] = {
 		},
@@ -114,7 +136,15 @@ DiminishingReturnsDB = {
 		},
 		["Walockbase - The Burning Crusade PTR"] = {
 		},
+		["Evotesta - Blackrock [PvP only]"] = {
+		},
 		["Evolvepwe - The Burning Crusade PTR"] = {
+		},
+		["Evoresist - Blackrock [PvP only]"] = {
+		},
+		["Evodruid - The Burning Crusade PTR"] = {
+		},
+		["Nnstest - Blackrock [PvP only]"] = {
 		},
 		["Druidbase - The Burning Crusade PTR"] = {
 		},
@@ -122,19 +152,36 @@ DiminishingReturnsDB = {
 		},
 		["Priestbase - The Burning Crusade PTR"] = {
 		},
+		["Palabase - The Burning Crusade PTR"] = {
+		},
+		["Rogbase - The Burning Crusade PTR"] = {
+		},
+		["Pushbacktest - Blackrock [PvP only]"] = {
+		},
+		["Testwlk - Blackrock [PvP only]"] = {
+		},
+		["Evotestmag - Blackrock [PvP only]"] = {
+			["categories"] = {
+				["disorient"] = true,
+			},
+		},
+		["Tabardo - Blackrock [PvP only]"] = {
+		},
 		["Warbase - The Burning Crusade PTR"] = {
+		},
+		["Evotestpal - Blackrock [PvP only]"] = {
 		},
 		["Default"] = {
 			["categories"] = {
-				["fear"] = true,
 				["disorient"] = true,
+				["fear"] = true,
 			},
 			["learnCategories"] = false,
 			["bigTimer"] = true,
 		},
-		["Rogbase - The Burning Crusade PTR"] = {
+		["Saptettst - The Burning Crusade PTR"] = {
 		},
-		["Palabase - The Burning Crusade PTR"] = {
+		["Tabardsign - Blackrock [PvP only]"] = {
 		},
 		["Evolvepwp - The Burning Crusade PTR"] = {
 			["categories"] = {
@@ -143,9 +190,9 @@ DiminishingReturnsDB = {
 			["learnCategories"] = false,
 			["bigTimer"] = true,
 		},
-		["Evodruid - The Burning Crusade PTR"] = {
+		["Newstrattest - Blackrock [PvP only]"] = {
 		},
-		["Saptettst - The Burning Crusade PTR"] = {
+		["Evodktest - Blackrock [PvP only]"] = {
 		},
 	},
 }

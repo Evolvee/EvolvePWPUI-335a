@@ -15,7 +15,7 @@ DiminishingReturnsDB = {
 		},
 		["Blizzard"] = {
 			["profiles"] = {
-				["Uitest - Blackrock [PvP only]"] = {
+				["Evolvepwp - The Burning Crusade PTR"] = {
 					["target"] = {
 						["relPoint"] = "LEFT",
 						["spacing"] = 5,
@@ -67,7 +67,7 @@ DiminishingReturnsDB = {
 						["yOffset"] = 25,
 					},
 				},
-				["Evolvepwp - The Burning Crusade PTR"] = {
+				["Uitest - Blackrock [PvP only]"] = {
 					["target"] = {
 						["relPoint"] = "LEFT",
 						["spacing"] = 5,
@@ -97,13 +97,13 @@ DiminishingReturnsDB = {
 		},
 		["Blizzard_Party"] = {
 			["profiles"] = {
-				["Uitest - Blackrock [PvP only]"] = {
+				["Evolvepwp - The Burning Crusade PTR"] = {
 					["enabled"] = false,
 				},
 				["Default"] = {
 					["enabled"] = false,
 				},
-				["Evolvepwp - The Burning Crusade PTR"] = {
+				["Uitest - Blackrock [PvP only]"] = {
 					["enabled"] = false,
 				},
 			},
@@ -114,18 +114,20 @@ DiminishingReturnsDB = {
 		["Druidtestcol - Blackrock [PvP only]"] = "Druidtestcol - Blackrock [PvP only]",
 		["Huntertestdd - The Burning Crusade PTR"] = "Huntertestdd - The Burning Crusade PTR",
 		["Pettest - The Burning Crusade PTR"] = "Pettest - The Burning Crusade PTR",
-		["Castbartest - Blackrock [PvP only]"] = "Castbartest - Blackrock [PvP only]",
-		["Tremortest - Blackrock [PvP only]"] = "Tremortest - Blackrock [PvP only]",
-		["Resisttest - Blackrock [PvP only]"] = "Resisttest - Blackrock [PvP only]",
-		["Evolvepwp - Blackrock [PvP only]"] = "Default",
-		["Tremortest - The Burning Crusade PTR"] = "Tremortest - The Burning Crusade PTR",
 		["Uitest - Blackrock [PvP only]"] = "Uitest - Blackrock [PvP only]",
 		["Uitestkek - Blackrock [PvP only]"] = "Uitestkek - Blackrock [PvP only]",
-		["Evodruid - The Burning Crusade PTR"] = "Evodruid - The Burning Crusade PTR",
 		["Wlocktestcol - Blackrock [PvP only]"] = "Wlocktestcol - Blackrock [PvP only]",
+		["Evodruid - The Burning Crusade PTR"] = "Evodruid - The Burning Crusade PTR",
+		["Vidydead - Blackrock [PvP only]"] = "Vidydead - Blackrock [PvP only]",
+		["Pummelsound - Blackrock [PvP only]"] = "Pummelsound - Blackrock [PvP only]",
+		["Castbartest - Blackrock [PvP only]"] = "Castbartest - Blackrock [PvP only]",
+		["Resisttest - Blackrock [PvP only]"] = "Resisttest - Blackrock [PvP only]",
+		["Evolvepwp - Blackrock [PvP only]"] = "Default",
 		["Evolvepwe - The Burning Crusade PTR"] = "Evolvepwe - The Burning Crusade PTR",
 		["Evolvepwp - The Burning Crusade PTR"] = "Evolvepwp - The Burning Crusade PTR",
-		["Pummelsound - Blackrock [PvP only]"] = "Pummelsound - Blackrock [PvP only]",
+		["Tremortest - Blackrock [PvP only]"] = "Tremortest - Blackrock [PvP only]",
+		["Tremortest - The Burning Crusade PTR"] = "Tremortest - The Burning Crusade PTR",
+		["Evolvepwe - Blackrock [PvP only]"] = "Evolvepwe - Blackrock [PvP only]",
 	},
 	["profiles"] = {
 		["Paalatest - The Burning Crusade PTR"] = {
@@ -156,6 +158,8 @@ DiminishingReturnsDB = {
 		},
 		["Evodruid - The Burning Crusade PTR"] = {
 		},
+		["Vidydead - Blackrock [PvP only]"] = {
+		},
 		["Pummelsound - Blackrock [PvP only]"] = {
 		},
 		["Castbartest - Blackrock [PvP only]"] = {
@@ -176,6 +180,8 @@ DiminishingReturnsDB = {
 		},
 		["Evolvepwe - The Burning Crusade PTR"] = {
 		},
+		["Tremortest - The Burning Crusade PTR"] = {
+		},
 		["Evolvepwp - The Burning Crusade PTR"] = {
 			["categories"] = {
 				["disorient"] = true,
@@ -185,7 +191,7 @@ DiminishingReturnsDB = {
 		},
 		["Tremortest - Blackrock [PvP only]"] = {
 		},
-		["Tremortest - The Burning Crusade PTR"] = {
+		["Evolvepwe - Blackrock [PvP only]"] = {
 		},
 	},
 }
